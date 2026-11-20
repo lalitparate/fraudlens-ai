@@ -1,0 +1,13 @@
+[project]
+name = "fraudlens-ai-backend"
+version = "0.1.0"
+description = "FastAPI backend for the FraudLens AI M.Tech research prototype"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi>=0.115,<1.0",
+    "uvicorn[standard]>=0.30,<1.0",
+    "pydantic>=2.8,<3.0",
+]
+
+[tool.uv]
+package = false
